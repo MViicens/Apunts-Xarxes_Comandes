@@ -211,7 +211,7 @@ no shutdown
 > En el switch les IP es fiquen a les **VLAN**, **NO** als **PORTS**.
 
 ### Assignar un nom a una VLAN:
-Mode de configuració: **Configure Terminal (VLAN)**
+> Mode de configuració: **Configure Terminal (VLAN)**
 ```
 name <nom>
 ```
