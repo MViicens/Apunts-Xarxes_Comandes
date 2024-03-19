@@ -222,6 +222,13 @@ name <nom>
 interface range <tipu> <port>-<port>
 ```
 
+### Configuració de un Gateway al Switch:
+> Mode de configuració: **Configure Terminal**
+```
+ip default-gateway <ip>
+```
+
+
 ## 3.2 CONFIGURACIÓ DE MODES ALS PORTS
 ### Port mode Access:
 > Mode de configuració: **Configure Terminal**
@@ -248,6 +255,7 @@ Aquesta seguretat es vasa en les restriccions que es poden fer als ports del Swi
 interface <tipu> <port>
 switchport port-security
 switchport port-security mac-address sticky
+switchport port-security maximum <num>
 switchport port-security violation <tipu-proteccio>
 switchport port-security mac-address <mac>
 ```
